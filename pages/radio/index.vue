@@ -23,7 +23,6 @@
 import _ from 'lodash'
 import Navigation from '~/components/Navigation.vue'
 import firebase from '~/firebase'
-global.firebase = firebase
 
 const countryTable = {
   'ag': 'Antigua',
